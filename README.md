@@ -1,2 +1,68 @@
-# PHPMobile
-PHPMobile is a lightweight but ultra-powerful microframework that allows you to develop full Android applications using PHP and JavaScript, without needing a full native Android project setup. It leverages a WebView with an embedded PHP runtime, acting as a bridge between PHP/JS code and Android native features.
+
+# PHPMobile – Android Microframework
+
+PHPMobile is a lightweight, ultra-powerful microframework that allows you to develop Android apps entirely with PHP and JavaScript, while accessing native device features via a simple PHP-Java bridge.
+
+🚀 # Features
+
+Native Device Access from PHP/JS
+
+Toasts, dialogs, and local notifications
+
+Vibrations and haptic feedback
+
+Front/back camera capture & gallery access
+
+Microphone recording & audio playback
+
+GPS, accelerometer, battery, screen brightness
+
+Network info, Wi-Fi info, ping, network speed
+
+File system read/write, storage management, clipboard
+
+Bidirectional Bridge
+
+Call Android functions directly from PHP
+
+Return results back to PHP
+
+WebView JavaScript can also interact with PHPBridgeUltimate
+
+Flexible UI
+
+Material Design or iOS/Cupertino styles
+
+Switch themes dynamically via PHP
+
+Embedded PHP Runtime
+
+No external server needed
+
+Full PHP capabilities: sessions, file I/O, networking
+
+Extensible
+
+Add new native functions or modules easily
+
+Ideal for sensors, multimedia, device controls
+
+🛠 Installation
+
+Make sure php7 folder with binaries exists alongside generate-project.bat.
+
+Run generate-project.bat.
+
+Follow prompts for project name and package.
+
+Open the generated project in Android Studio.
+
+Wait for Gradle sync, then Build & Run.
+
+📂 Project Structure
+app/src/main/
+├── assets/
+│   ├── php7/       <-- Embedded PHP binaries
+│   └── www/        <-- Your PHP + HTML + JS code
+├── java/           <-- Java code including PHPBridgeUltimate
+└── res/            <-- Android resources (layouts, drawables, etc.)
