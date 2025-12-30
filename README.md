@@ -4,7 +4,7 @@ PHPMobile is a lightweight, ultra-powerful microframework that allows you to dev
 
 ## Ios Version is very early and not for production
 
-## 🚀 Features
+## 🚀 Android Features
 
 ### Native Device Access from PHP/JS
 - Toasts, dialogs, and local notifications  
