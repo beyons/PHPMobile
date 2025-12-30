@@ -33,10 +33,11 @@ PHPMobile is a lightweight, ultra-powerful microframework that allows you to dev
 ## 🛠 Installation
 
 1. Make sure `php7` folder with binaries exists alongside `generate-project.bat`.  
-2. Run `generate-project.bat`.  
-3. Follow prompts for project name and package.  
-4. Open the generated project in Android Studio.  
-5. Wait for Gradle sync, then **Build & Run**.  
+2. Run `init.bat`.
+3. Choose Android, Ios or both.  
+4. Follow prompts for project name and package.  
+5. Open the generated project in Android Studio.  
+6. Wait for Gradle sync, then **Build & Run**.  
 
 ## 📂 Project Structure
 app/src/main/
