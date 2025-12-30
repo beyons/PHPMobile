@@ -1,4 +1,4 @@
-# PHPMobile – Android Microframework
+# PHPMobile – Mobile Microframework
 
 PHPMobile is a lightweight, ultra-powerful microframework that allows you to develop Android apps entirely with PHP and JavaScript, while accessing native device features via a simple PHP-Java bridge.
 
